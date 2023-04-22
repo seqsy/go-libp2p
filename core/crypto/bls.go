@@ -2,8 +2,10 @@ package crypto
 
 import (
 	"bytes"
+	"io"
 
 	"github.com/dfinity-side-projects/go-dfinity-crypto/bls"
+	"github.com/dfinity/dfinity-side-projects/bls/g2pubs"
 	pb "github.com/libp2p/go-libp2p/core/crypto/pb"
 )
 
@@ -95,4 +97,15 @@ func (k *BLSPubKey) Verify(data []byte, sig []byte) (bool, error) {
 	}
 
 	return sign.Verify(&k.Key, string(data)), nil
+}
+
+// GenerateBLSKeyPair generates a new BLS private and public key
+func GenerateBLSKeyPair(src io.Reader) (PrivKey, PubKey, error) {
+	var msk bls.SecretKey
+	msk.GetMasterSecretKey(100)
+
+	sk := g2pubs.NewSecretKey(msk)
+	pk := sk.GetPublicKey()
+
+	return &BLSPrivKey{Key: sk}, &BLSPubKey{Key: *pk}, nil
 }

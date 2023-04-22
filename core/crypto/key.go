@@ -66,7 +66,7 @@ var PrivKeyUnmarshallers = map[pb.KeyType]PrivKeyUnmarshaller{
 	pb.KeyType_Ed25519:   UnmarshalEd25519PrivateKey,
 	pb.KeyType_Secp256k1: UnmarshalSecp256k1PrivateKey,
 	pb.KeyType_ECDSA:     UnmarshalECDSAPrivateKey,
-	pb.KeyType_BLS:       UnmarshalBLSPublicKey,
+	pb.KeyType_BLS:       UnmarshalBLSPrivateKey,
 }
 
 // Key represents a crypto key that can be compared to another key
