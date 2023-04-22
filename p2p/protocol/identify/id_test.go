@@ -549,7 +549,7 @@ func TestUserAgent(t *testing.T) {
 func TestNotListening(t *testing.T) {
 	// Make sure we don't panic if we're not listening on any addresses.
 	//
-	// https://github.com/libp2p/go-libp2p/issues/939
+	// https://github.com/seqsy/go-libp2p/issues/939
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
 
