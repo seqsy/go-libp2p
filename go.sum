@@ -51,6 +51,8 @@ github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 h1:HbphB4TFFXpv7MNrT52FGrrgVXF1
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0/go.mod h1:DZGJHZMqrU4JJqFAWUS2UO1+lbSKsdiOoYi9Zzey7Fc=
 github.com/dfinity-side-projects/go-dfinity-crypto v0.0.0-20170719220532-1db358303499 h1:o/5umJ0kJQGEdsU5MH+IvF9B7+pM6SIhwGU9Me+Wcm8=
 github.com/dfinity-side-projects/go-dfinity-crypto v0.0.0-20170719220532-1db358303499/go.mod h1:xDrZPPbAr+B//rpI20CvPChnPggE534cnncEsm2Adc0=
+github.com/dfinity/go-dfinity-crypto v0.0.0-20170719220532-1db358303499 h1:5pBBsU5AlE4uKI5iX6wybbZaYUjE6fuOTiNtv7kapqw=
+github.com/dfinity/go-dfinity-crypto v0.0.0-20170719220532-1db358303499/go.mod h1:2BGjuraB5pNC5w3kzo8u+22EgZVYCHYZJcxXEdm3Uro=
 github.com/dgraph-io/badger v1.6.2 h1:mNw0qs90GVgGGWylh0umH5iag1j6n/PeJtNvL6KY/x8=
 github.com/dgraph-io/badger v1.6.2/go.mod h1:JW2yswe3V058sS0kZ2h/AXeDSqFjxnZcRrVH//y2UQE=
 github.com/dgraph-io/ristretto v0.0.2 h1:a5WaUrDa0qm0YrAAS1tUykT5El3kt62KNZZeMxQn3po=
