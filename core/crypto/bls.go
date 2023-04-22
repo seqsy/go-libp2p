@@ -72,7 +72,7 @@ func (k *BLSPubKey) Raw() ([]byte, error) {
 }
 
 func (k *BLSPubKey) Type() pb.KeyType {
-	return pb.KeyType_ECDSA
+	return pb.KeyType_BLS
 }
 
 func (k *BLSPubKey) Equals(key Key) bool {
