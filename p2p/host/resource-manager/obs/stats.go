@@ -3,9 +3,9 @@ package obs
 import (
 	"strings"
 
-	rcmgr "github.com/libp2p/go-libp2p/p2p/host/resource-manager"
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
 	"github.com/prometheus/client_golang/prometheus"
+	rcmgr "github.com/seqsy/go-libp2p/p2p/host/resource-manager"
+	"github.com/seqsy/go-libp2p/p2p/metricshelper"
 )
 
 const metricNamespace = "libp2p_rcmgr"

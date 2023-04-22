@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/event"
+	"github.com/seqsy/go-libp2p/core/event"
 
 	"github.com/libp2p/go-libp2p-testing/race"
 

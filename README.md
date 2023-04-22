@@ -49,7 +49,7 @@ This repository (`go-libp2p`) serves as the entrypoint to the universe of packag
 You can start using go-libp2p in your Go application simply by adding imports from our repos, e.g.:
 
 ```go
-import "github.com/libp2p/go-libp2p"
+import "github.com/seqsy/go-libp2p"
 ```
 
 ### Examples

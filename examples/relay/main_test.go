@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/examples/testutils"
+	"github.com/seqsy/go-libp2p/examples/testutils"
 )
 
 func TestMain(t *testing.T) {

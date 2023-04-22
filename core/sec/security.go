@@ -5,9 +5,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/seqsy/go-libp2p/core/network"
+	"github.com/seqsy/go-libp2p/core/peer"
+	"github.com/seqsy/go-libp2p/core/protocol"
 )
 
 // SecureConn is an authenticated, encrypted connection.

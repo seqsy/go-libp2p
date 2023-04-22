@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/canonicallog"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/transport"
 	ma "github.com/multiformats/go-multiaddr"
 	madns "github.com/multiformats/go-multiaddr-dns"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/quic-go/quic-go"
+	"github.com/seqsy/go-libp2p/core/canonicallog"
+	"github.com/seqsy/go-libp2p/core/network"
+	"github.com/seqsy/go-libp2p/core/peer"
+	"github.com/seqsy/go-libp2p/core/peerstore"
+	"github.com/seqsy/go-libp2p/core/transport"
 )
 
 // The maximum number of address resolution steps we'll perform for a single

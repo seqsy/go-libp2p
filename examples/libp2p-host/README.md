@@ -11,7 +11,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/seqsy/go-libp2p"
 	"github.com/libp2p/go-libp2p-core/crypto"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/dfinity-side-projects/go-dfinity-crypto/bls"
 
-	pb "github.com/libp2p/go-libp2p/core/crypto/pb"
+	pb "github.com/seqsy/go-libp2p/core/crypto/pb"
 )
 
 func UnmarshalBLSPrivateKey(data []byte) (PrivKey, error) {
